@@ -26,5 +26,9 @@
     "@types/node": "^22.7.5",
     "typescript": "^5.6.3"
   },
-  "homepage": "https://github.com/DevInsilicon/YOllama#readme"
+  "homepage": "https://github.com/DevInsilicon/YOllama#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "chalk": "^5.3.0"
+  }
 }
