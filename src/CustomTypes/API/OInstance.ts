@@ -40,3 +40,5 @@ class OInstance {
     }
 
 }
+
+export default OInstance;
