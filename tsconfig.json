@@ -1,14 +1,25 @@
 {
     "compilerOptions": {
-        "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
-        "module": "NodeNext",
-        "moduleResolution": "NodeNext",
-        "target": "ESNext",
-        "sourceMap": true,
-        "outDir": "dist",
+        "target": "ES2018",
+        "lib": [
+            "ES2018",
+            "DOM"
+        ],
+        "declaration": true,
         "strict": true,
-        "noImplicitAny": true
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "module": "ESNext",
+        "outDir": "./dist",
+        "rootDir": "./src"
     },
-    "include": ["src/**/*"]
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
 }
