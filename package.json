@@ -1,0 +1,30 @@
+{
+  "name": "yollama",
+  "version": "1.0.0",
+  "description": "A front-end library for accessing your locally or external Ollama API!",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevInsilicon/YOllama.git"
+  },
+  "keywords": [
+    "YOllama",
+    "Ollama",
+    "Library",
+    "NodeJS"
+  ],
+  "author": "insilicon",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/DevInsilicon/YOllama/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.3"
+  },
+  "homepage": "https://github.com/DevInsilicon/YOllama#readme"
+}
